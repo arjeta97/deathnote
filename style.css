@@ -1,0 +1,113 @@
+@font-face {
+    font-family: death;
+    src: url(Fonts/RyukExtra.ttf)
+}
+@font-face {
+    font-family: deathopen;
+    src: url(Fonts/CloisterBlack\ copy.ttf)
+}
+
+  body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+input{
+    padding: 5px;
+    margin: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 30%;
+    
+     padding: 10px;
+
+}
+
+.container2{
+    
+    padding: 5px;
+    margin: 2px;
+
+}
+h1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: death;
+    font-size: xx-large;
+}
+
+#enter {
+    margin: 2px;
+    width: 30%;
+}
+
+::placeholder{
+    font-family: death;
+    font-size: x-large;
+}
+
+table, table thead th ,table tbody tr td {
+    color: white;
+    border: solid white;
+    border-collapse: collapse;
+    font-family: death;
+    font-size: x-large;
+   border: solid white;
+}
+
+#audio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+#fn, #ln, #cd{
+    color: white;
+    padding: 5px;
+    font-family: death;
+    margin: 4px;
+}
+
+#tbody{
+    
+    color: white;
+    padding: 5px;
+}
+
+
+#click{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    height: 100vh;
+    color: white;
+    font-size: 70px;
+    font-family: deathopen;
+}
+ 
+#open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(open.jpg);
+}
+
